@@ -21,7 +21,7 @@ a2/a3 and b2/b3 cluster together, yet a1/b1 are mistakenly clustered together.
  (p-value < 0.01, inverted beta binomial test based on https://doi.org/10.1093/bioinformatics/btp677)
 
 
-Hierarchical clustering based on only those proteins that were H0 got rejected (p-val 0.01) shows a clear separation between class a and b, hence allowing to fully classify
+Hierarchical clustering based on only those proteins that were H0 got rejected (p-val < 0.01) shows a clear separation between class a and b, hence allowing to fully classify
 all 3 subtypes of colorectal cancer based on their protein abundance profiles.
 
 ![alt text](https://github.com/nagym72/MS-proteomic_analysis_colorectal_cancer_subtypes/blob/main/Hierarchical_clustering_normalized_for_relevant_p_value_proteins.jpg)
